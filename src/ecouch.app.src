@@ -1,0 +1,8 @@
+{application, ecouch, [
+    {description, "Erlang CouchDB Cache"},
+    {vsn, "1.1"},
+    {modules, []},
+    {registered, []},
+    {applications, [kernel, stdlib, sasl, gproc, public_key, ssl, inets]},
+	{mod, {ecouch_app, []}}
+]}.
